@@ -8,8 +8,9 @@ import { OtpService } from './otp.service';
     <div class="flex justify-content-center">
         <div class="card col-3 border-primary shadow-7">
             <div class="card-body ">
-                <div class="text-blue-800 flex justify-content-center">
-                    <h2>OTP Authentication</h2>
+                <div class="text-blue-800 flex flex-column justify-content-center">
+                    <h2 class = "m-0 flex justify-content-center">OTP Authentication</h2>
+                    <h4 class = "m-0 flex justify-content-center">(Open Console to receive OTP)</h4>
                 </div>
                 @if(!otpSent){
                 <div class="flex justify-content-between flex-column">
